@@ -1,0 +1,111 @@
+.alignCenter {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 8px;
+}
+.itemlink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 50px;
+  width: 100%; 
+  max-width: 300px;
+  cursor: pointer;
+  background-color: rgb(201, 197, 197);
+}
+.displayingProduct {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+    width: 15%;
+    height: 30px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 10px;
+
+}
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  z-index: 1000;
+  padding-top: 50px;
+}
+
+
+.modalContent {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  height:60%;
+  width: 60%;
+  max-width: 90%;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+.addProductForm {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.addProductForm input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+.addProductForm button {
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.addProductForm button:hover {
+  background-color: #45a049;
+}
+
+.buttonAlign{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buttonAlign button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+}
+
