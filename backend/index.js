@@ -12,7 +12,7 @@ const user = app.use("/index",routes)
 app.use(body_parser.urlencoded({ extended: true }))
 app.use(cookie_parser())
 
-const uri = `mongodb+srv://devendrakandpal07:admin123@cluster0.x3zl6sc.mongodb.net/product?retryWrites=true&w=majority&appName=Cluster0`;
+const uri = `Please connect to your mongo db`;
 
 mongoose.connect(uri, {
   useNewUrlParser: true,
